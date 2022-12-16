@@ -11,6 +11,8 @@
 		028C2386294B2FFF00F6B4D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C2385294B2FFF00F6B4D7 /* ContentView.swift */; };
 		028C2388294B300100F6B4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C2387294B300100F6B4D7 /* Assets.xcassets */; };
 		028C238B294B300100F6B4D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C238A294B300100F6B4D7 /* Preview Assets.xcassets */; };
+		028C2394294B30AF00F6B4D7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C2393294B30AF00F6B4D7 /* Card.swift */; };
+		028C2396294B313500F6B4D7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C2395294B313500F6B4D7 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		028C2385294B2FFF00F6B4D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		028C2387294B300100F6B4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028C238A294B300100F6B4D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		028C2393294B30AF00F6B4D7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		028C2395294B313500F6B4D7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		028C2382294B2FFF00F6B4D7 /* BoomerangeCards */ = {
 			isa = PBXGroup;
 			children = (
+				028C2392294B308A00F6B4D7 /* Model */,
+				028C2391294B308400F6B4D7 /* View */,
 				028C2383294B2FFF00F6B4D7 /* BoomerangeCardsApp.swift */,
 				028C2385294B2FFF00F6B4D7 /* ContentView.swift */,
 				028C2387294B300100F6B4D7 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				028C238A294B300100F6B4D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		028C2391294B308400F6B4D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				028C2395294B313500F6B4D7 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		028C2392294B308A00F6B4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				028C2393294B30AF00F6B4D7 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				028C2386294B2FFF00F6B4D7 /* ContentView.swift in Sources */,
+				028C2394294B30AF00F6B4D7 /* Card.swift in Sources */,
+				028C2396294B313500F6B4D7 /* Home.swift in Sources */,
 				028C2384294B2FFF00F6B4D7 /* BoomerangeCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
